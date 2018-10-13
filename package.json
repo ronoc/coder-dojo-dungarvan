@@ -1,0 +1,46 @@
+{
+  "name": "gordon-gecko",
+  "version": "0.1.0",
+  "description": "Arbitrage crypto and fiat currencies",
+  "respository": "",
+  "license": "private",
+  "author": "$NAME",
+  "dependencies": {
+    "async": "*",
+    "dotenv": "^1.1.0",
+    "express-winston": "0.3.1",
+    "fixed-array": "^1.0.0",
+    "gdax": "^0.7.0",
+    "minimist": "^1.2.0",
+    "optimist": "^0.6.1",
+    "pusher-js": "^4.2.2",
+    "request": "*",
+    "stats-lite": "^2.1.0",
+    "statsd-client": "^0.2.4",
+    "sugar": "~1.4.1",
+    "underscore": "*",
+    "winston": "1.0.1",
+    "winston-papertrail": "1.0.1",
+    "yargs": "^3.32.0"
+  },
+  "engines": {
+    "node": ">=4.2"
+  },
+  "private": true,
+  "scripts": {
+    "start": "$NODE_HOME/bin/node --harmony main.js",
+    "run": "$NODE_HOME/bin/node --harmony main.js"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "rules": {
+      "semi": 2
+    }
+  }
+}

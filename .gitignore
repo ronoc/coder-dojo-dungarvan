@@ -1,0 +1,79 @@
+# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
+[Bb]in/
+[Oo]bj/
+
+# mstest test results
+TestResults
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+.builds
+
+# Installshield output folder 
+[Ee]xpress
+
+# Click-Once directory
+publish
+
+# Publish Web Output
+*.Publish.xml
+
+# NuGet Packages Directory
+packages
+Client/Packages
+
+# Others
+
+[Oo]bj
+sql
+TestResults
+[Tt]est[Rr]esult*
+*.Cache
+ClientBin
+[Ss]tyle[Cc]op.*
+~$*
+*.dbmdl
+
+# Node
+node_modules
+coverage
+
+# OSX Files
+.DS_Store
+._.DS_Store
+
+# JetBrains files
+.idea/
+
+# Sublime
+*.sublime-workspace
+
+# AWS specific
+*.pem
+
+.env
