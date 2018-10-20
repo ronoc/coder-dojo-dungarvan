@@ -27,9 +27,4 @@ logger.info("logger init");
                  new GDax({pairs : [{instrument : constants.instruments.LTC_BTC, symbol : "LTC-BTC"},
                                     {instrument : constants.instruments.ETH_BTC, symbol : "ETH-BTC"}]});
   let arb = new Arbitrager(exchanges, [constants.instruments.ETH_BTC, constants.instruments.LTC_BTC]);
-//How do I do harmless comments?
-// Are we there yet?
-// Are we there yet?
-// Are we there yet?
-// Are we there yet?
-// Hurry up!!!!
+})();
