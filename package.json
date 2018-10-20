@@ -11,6 +11,7 @@
     "express-winston": "0.3.1",
     "fixed-array": "^1.0.0",
     "gdax": "^0.7.0",
+    "influx": "^5.0.7",
     "minimist": "^1.2.0",
     "optimist": "^0.6.1",
     "pusher-js": "^4.2.2",
